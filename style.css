@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+#left_section{
+    width: 40vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("./resources/background_pic.jpg");
+    background-position: top left;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+}
+#odin_logo{
+    box-sizing: border-box;
+    margin-top: 30vh;
+    height: 18vh;
+    margin-bottom: 50vh;
+    background-color: black;
+    opacity: 0.6;  
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 1vh;
+}
+#odin_logo > span{
+    color: white;
+    font-size: x-large;
+    padding-top: 5vh;
+}
+footer{
+    padding-top: 1vh;
+    color: white;
+    text-align: center;
+}
+#right_section{
+    width: 60vw;
+    padding-top: 25vh;
+    display: flex;  
+    flex-direction: column;
+
+    box-sizing: border-box;
+}
+#acc_form_label{
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 3vw;
+}
+#upper{
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    justify-content: left;
+
+    box-sizing: border-box;
+
+    padding-left: 3vw;
+    box-shadow: 0px 3px 3px gray;
+}
+#upper > div{
+    width: 15vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+    margin-bottom: 3vh;
+    height: 25px;
+    padding-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1.5px solid #E5E7EB; 
+}
+input:focus{
+    border-color: orangered;
+    box-shadow: 0.5px 0.5px 3px gray;
+}
+input:valid{
+    border-color: green;
+}
+#lower{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    padding-left: 3vw;
+}
+button{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #596D48;
+    color: white;
+}
+a{
+    color: #596D48;
+    text-decoration: none;
+}

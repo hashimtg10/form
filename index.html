@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="icon" href="./resources/signup_icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="left_section">
+        <div id="odin_logo">
+            <span>Project X - Muhammad Hashim Tariq</span>
+        </div>
+        <footer>Photo by <u>Halie West</u> on <u>Unsplash</u></footer>
+    </div>
+    <div id="right_section">
+    <label for="acc_form"   id="acc_form_label">Sign Up</label>
+    <form action="#" method="post" id="acc_form">
+        <div id="upper">
+            <div id="left">
+                <label for="first_name">Frst Name: </label>
+                <input type="text" id="first_name" name="first_name" placeholder="Muhammad Hashim" required>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="hashimtariq111@gmail.com" required>
+                <label for="passkey">Password: </label>
+                <input type="password" id="passkey" name="passkey" required>
+            </div>
+            <div id="right">
+                <label for="last_name">Last Name: </label>
+                <input type="text" id="last_name" name="last_name" placeholder="Tariq" required>
+                <label for="phone">Phone Number: </label>
+                <input type="number" id="phone" name="phone" min="100000000000" max="999999999999" placeholder="92XXXXXXXXXX" required>
+                <label for="conf_passkey">Confirm Password: </label>
+                <input type="password" id="conf_passkey" name="conf_passkey" required>
+            </div>
+        </div>
+        <div id="lower">
+            <button type="submit">Create Account</button>
+            <div id="login">
+            <span>Already have an account?</span>
+            <a href="#">Log in</a>
+            </div>
+        </div>
+    </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
